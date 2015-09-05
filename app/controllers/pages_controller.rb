@@ -5,8 +5,7 @@ class PagesController < ApplicationController
   def about
   end
   
-  def contact
+  def itintelligence
   end
 end
-
 
