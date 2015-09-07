@@ -23,6 +23,7 @@
     </style>
 </head>
    <body>
+        <%= link_to "Create your profile!", new_user_profile_path(current_user) if current_user %>
         <nav>          
           <h1 class="page-white text-color">William I/T Technology Report</h1>
           <h2 class="page-white">A membership and community of entrepreneurs, where I/T News and Technology are discuss for developers.</h2>
